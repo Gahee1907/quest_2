@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>about</title>
+  <style>
+  #top {
+    width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  }
+
+  #top .top_img1{
+    width: 1000px;
+    height: 500px;
+  }
+
+  .top_right{
+    width: 250px;
+      height: 500px;
+  }
+
+  .top_right img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .top_right .top_img3 {
+    margin-top: -4px ;
+  }
+
+  #box_all {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .box_left {
+      width: 750px;
+      height: 500px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .box_left div {
+    width: 250px;
+    height: 250px;
+    padding: 16px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+
+  .brown {
+    background-color: #6c5f4d;
+  }
+
+  .orange {
+    background-color: #e68043;
+  }
+
+  .box_right {
+    background-color: yellow;
+    width: 250px;
+    height: 500px;
+    padding: 16px;
+  box-sizing: border-box;
+  }
+
+  .box {
+    width: 1000px;
+    height: 40px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .f_left{
+    background-color: #7d7d7d;
+    width: 750px;
+    height: 40px;
+  }
+  .f_left ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+        margin-top: 8px;
+        padding:0 15px;
+  }
+
+  .f_left li {
+    text-align:center;
+  }
+
+  .f_left li::after {
+    content:" |";
+    color: #e68043;
+    margin-left: 10px;
+  }
+
+  .f_left .last::after {
+    content:"";
+}
+
+  .f_right {
+    width: 250px;
+    height: 40px;
+    background: pink;
+  }
+    </style>
+    </head>
+    <body>
+      <div id="top">
+        <img class="top_img1" src="chef_about.png" alt="chef">
+
+        <div class="top_right">
+          <img class="top_img2" src="right1.png" alt="새우">
+          <img class="top_img3" src="right2.png" alt="여자">
+       </div>
+      </div>
+
+      <div id="box_all">
+        <div class="box_left">
+
+          <div class="brown">
+            <span>TITLE
+            </span>
+            <br>slkewohgilognvwegvnslknwlrgwegweg
+          </div>
+
+          <div class="orange">
+            <span>TITLE</span>
+            <br>slkewohgilognvwegvnslknwlrgwegweg
+          </div>
+
+          <div class="brown">3</div>
+          <div class="orange">4</div>
+          <div class="brown">5</div>
+          <div class="orange">6</div>
+
+        </div> <!-- check -->
+      <div class="box_right">7</div>
+      </div> <!-- box_all -->
+
+
+
+      <div class="box">
+        <div class="f_left">
+          <ul>
+            <li>법적고지</li>
+            <li>이메일무단수집거부</li>
+            <li>이용약관</li>
+            <li>개인정보취급방침</li>
+            <li>고객센터</li>
+            <li class="last">입찰공고</li>
+        </div>
+
+        <div class="f_right"></div>
+      </div>  <!-- box -->
+
+
+    </body>
+    </html>
